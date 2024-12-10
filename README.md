@@ -10,15 +10,6 @@ Independent Joints: Each joint is created independently, avoiding hierarchical c
 
 # Requirements:
 Autodesk Maya 2022 or newer.
-Basic familiarity with Maya's Python scripting environment.
-
-# Installation:
-Clone this repository or download the script file:
-bash
-Copy code
-git clone https://github.com/your-username/maya-create-joints.git
-Open the script editor in Maya (Windows > General Editors > Script Editor).
-Paste the code from create_joints_from_locators.py into the Python tab.
 
 # Usage
 In your Maya scene, select the locators for which you want to create joints.
