@@ -1,15 +1,18 @@
 Maya Script: Create Joints from Selected Locators
+
 This Python script for Autodesk Maya creates joints at the positions of selected locators. It is designed for riggers and animators who need to streamline the process of generating joints based on locator positions.
 
-Features
+Features:
 Automatic Joint Creation: For every selected locator, a joint is created at its world-space position.
 Custom Naming: Joints are named based on the corresponding locator's name, with _joint appended for easy identification.
 Error Handling: Objects that are not locators are automatically skipped with a warning.
 Independent Joints: Each joint is created independently, avoiding hierarchical connections.
-Requirements
+
+Requirements:
 Autodesk Maya 2022 or newer.
 Basic familiarity with Maya's Python scripting environment.
-Installation
+
+Installation:
 Clone this repository or download the script file:
 bash
 Copy code
